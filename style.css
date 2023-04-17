@@ -84,13 +84,14 @@ p {
     background-image: url("assets/hero3.jpg");
     height: 90vh;
     width: 100%;
-    background-size: cover;
+    background-size: 100%;
     background-position: top 25% right 0;
     padding: 0px 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 5px;
+    background-repeat: no-repeat;
 }
 
 button {
@@ -464,5 +465,12 @@ footer a:hover {
     }
     #navbar.active {
         right: 0px;
+    }
+}
+
+@media(max-width:600px) {
+    #hero {
+        background-image: none;
+        background-color: lightgreen;
     }
 }
