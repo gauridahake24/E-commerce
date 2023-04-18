@@ -554,6 +554,18 @@ footer a:hover {
 }
 
 
+/* about page */
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head div {
+    padding-left: 40px;
+}
+
+
 /* add media query */
 
 @media(max-width: 750px) {
