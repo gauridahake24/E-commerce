@@ -478,9 +478,85 @@ footer a:hover {
 }
 
 
+/* blog page */
+
+
+/* 
+#page-header.blog-header {
+    background-image: url();
+} */
+
+#Blog {
+    padding: 150px 150px 150px 0;
+}
+
+#Blog .blog-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 90px;
+}
+
+#Blog .blog-img {
+    width: 50%;
+    margin-right: 40px;
+}
+
+#Blog img {
+    width: 100%;
+    height: 300px;
+    padding-left: 50px;
+    object-fit: cover;
+    padding-top: 25px;
+}
+
+#Blog .blog-details {
+    width: 50%;
+}
+
+#Blog .blog-details a {
+    text-decoration: none;
+    font-size: 11px;
+    color: black;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+}
+
+#Blog .blog-details a::after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 4px;
+    right: -60px;
+}
+
+#Blog .blog-details a:hover {
+    color: lightseagreen;
+}
+
+#Blog .blog-details a:hover:after {
+    background-color: lightseagreen;
+}
+
+#Blog .blog-box h1 {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: lightslategray;
+    z-index: -9;
+    padding-left: 50px;
+}
+
+
 /* add media query */
 
-@media(max-width:750px) {
+@media(max-width: 750px) {
     #navbar {
         display: flex;
         flex-direction: column;
