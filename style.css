@@ -652,8 +652,7 @@ footer .follow h4 {
 }
 
 
-/* add media query */
-
+/* add media query 
 @media(max-width: 750px) {
     #navbar {
         display: flex;
@@ -692,4 +691,4 @@ footer .follow h4 {
         background-image: none;
         background-color: lightgreen;
     }
-}
+} */
